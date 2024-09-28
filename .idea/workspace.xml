@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4375e177-1f8e-4356-8dd3-e8db47d056ec" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_patterns.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/abstractFactory/ClientBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/abstractFactory/ClientButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/abstractFactory/factory/FactoryInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/abstractFactory/factory/MacFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/abstractFactory/factory/WinFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/abstractFactory/products/box/BoxInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/abstractFactory/products/box/MacBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/abstractFactory/products/box/WinBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/abstractFactory/products/button/ButtonInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/abstractFactory/products/button/MacButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/abstractFactory/products/button/WinButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/builder/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/builder/builder/BuilderInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/builder/builder/CarBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/builder/builder/ManualBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/builder/director/Director.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/builder/product/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/builder/product/Manual.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/factory/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/factory/creator/CreateApple.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/factory/creator/CreateBanana.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/factory/creator/CreationFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/factory/product/Apple.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/factory/product/Banana.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/factory/product/ProductInterface.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2mfdYf5GRhd0IGi4BT93C1kaaeP" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "/Users/swati.pandey/Downloads/design_patterns/src/factory/creator",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
+  },
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "TEXT"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/factory/creator" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4375e177-1f8e-4356-8dd3-e8db47d056ec" name="Changes" comment="" />
+      <created>1727471616830</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1727471616830</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
