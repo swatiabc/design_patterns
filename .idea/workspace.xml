@@ -1,39 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="4375e177-1f8e-4356-8dd3-e8db47d056ec" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_patterns.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/abstractFactory/ClientBox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/abstractFactory/ClientButton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/abstractFactory/factory/FactoryInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/abstractFactory/factory/MacFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/abstractFactory/factory/WinFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/abstractFactory/products/box/BoxInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/abstractFactory/products/box/MacBox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/abstractFactory/products/box/WinBox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/abstractFactory/products/button/ButtonInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/abstractFactory/products/button/MacButton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/abstractFactory/products/button/WinButton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/builder/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/builder/builder/BuilderInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/builder/builder/CarBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/builder/builder/ManualBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/builder/director/Director.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/builder/product/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/builder/product/Manual.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/factory/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/factory/creator/CreateApple.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/factory/creator/CreateBanana.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/factory/creator/CreationFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/factory/product/Apple.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/factory/product/Banana.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/factory/product/ProductInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/creational/prototype/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/creational/prototype/Prototype.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/creational/prototype/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/creational/prototype/Square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/creational/singleton/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/creational/singleton/Database.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structural/adapter/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structural/adapter/RoundHole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structural/adapter/RoundPeg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structural/adapter/SqrToRoundAdaptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structural/adapter/SquarePeg.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design_patterns.iml" beforeDir="false" afterPath="$PROJECT_DIR$/design_patterns.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/abstractFactory/ClientBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/abstractFactory/ClientBox.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/abstractFactory/ClientButton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/abstractFactory/ClientButton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/abstractFactory/factory/FactoryInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/abstractFactory/factory/FactoryInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/abstractFactory/factory/MacFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/abstractFactory/factory/MacFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/abstractFactory/factory/WinFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/abstractFactory/factory/WinFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/abstractFactory/products/box/BoxInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/abstractFactory/products/box/BoxInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/abstractFactory/products/box/MacBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/abstractFactory/products/box/MacBox.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/abstractFactory/products/box/WinBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/abstractFactory/products/box/WinBox.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/abstractFactory/products/button/ButtonInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/abstractFactory/products/button/ButtonInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/abstractFactory/products/button/MacButton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/abstractFactory/products/button/MacButton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/abstractFactory/products/button/WinButton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/abstractFactory/products/button/WinButton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/builder/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/builder/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/builder/builder/BuilderInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/builder/builder/BuilderInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/builder/builder/CarBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/builder/builder/CarBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/builder/builder/ManualBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/builder/builder/ManualBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/builder/director/Director.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/builder/director/Director.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/builder/product/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/builder/product/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/builder/product/Manual.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/builder/product/Manual.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/factory/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/factory/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/factory/creator/CreateApple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/factory/creator/CreateApple.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/factory/creator/CreateBanana.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/factory/creator/CreateBanana.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/factory/creator/CreationFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/factory/creator/CreationFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/factory/product/Apple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/factory/product/Apple.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/factory/product/Banana.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/factory/product/Banana.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/factory/product/ProductInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/factory/product/ProductInterface.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +52,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="package-info" />
         <option value="Class" />
       </list>
     </option>
@@ -53,6 +63,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 4
+}]]></component>
   <component name="ProjectId" id="2mfdYf5GRhd0IGi4BT93C1kaaeP" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -61,8 +74,14 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/swati.pandey/Downloads/design_patterns/src/factory/creator",
     "settings.editor.selected.configurable": "editor.preferences.fonts.default"
   },
