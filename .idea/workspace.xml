@@ -4,45 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4375e177-1f8e-4356-8dd3-e8db47d056ec" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/creational/prototype/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/creational/prototype/Prototype.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/creational/prototype/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/creational/prototype/Square.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/creational/singleton/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/creational/singleton/Database.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/structural/adapter/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/structural/adapter/RoundHole.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/structural/adapter/RoundPeg.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/structural/adapter/SqrToRoundAdaptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/structural/adapter/SquarePeg.java" afterDir="false" />
+    <list default="true" id="4375e177-1f8e-4356-8dd3-e8db47d056ec" name="Changes" comment="Creational pattern">
+      <change afterPath="$PROJECT_DIR$/src/structural/bridge/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structural/bridge/controller/AdvanceController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structural/bridge/controller/BaseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structural/bridge/remote/MobileRemote.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structural/bridge/remote/Remote.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structural/bridge/remote/TvRemote.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design_patterns.iml" beforeDir="false" afterPath="$PROJECT_DIR$/design_patterns.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/abstractFactory/ClientBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/abstractFactory/ClientBox.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/abstractFactory/ClientButton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/abstractFactory/ClientButton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/abstractFactory/factory/FactoryInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/abstractFactory/factory/FactoryInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/abstractFactory/factory/MacFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/abstractFactory/factory/MacFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/abstractFactory/factory/WinFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/abstractFactory/factory/WinFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/abstractFactory/products/box/BoxInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/abstractFactory/products/box/BoxInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/abstractFactory/products/box/MacBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/abstractFactory/products/box/MacBox.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/abstractFactory/products/box/WinBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/abstractFactory/products/box/WinBox.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/abstractFactory/products/button/ButtonInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/abstractFactory/products/button/ButtonInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/abstractFactory/products/button/MacButton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/abstractFactory/products/button/MacButton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/abstractFactory/products/button/WinButton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/abstractFactory/products/button/WinButton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/builder/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/builder/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/builder/builder/BuilderInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/builder/builder/BuilderInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/builder/builder/CarBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/builder/builder/CarBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/builder/builder/ManualBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/builder/builder/ManualBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/builder/director/Director.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/builder/director/Director.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/builder/product/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/builder/product/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/builder/product/Manual.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/builder/product/Manual.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/factory/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/factory/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/factory/creator/CreateApple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/factory/creator/CreateApple.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/factory/creator/CreateBanana.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/factory/creator/CreateBanana.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/factory/creator/CreationFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/factory/creator/CreationFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/factory/product/Apple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/factory/product/Apple.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/factory/product/Banana.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/factory/product/Banana.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/factory/product/ProductInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/factory/product/ProductInterface.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +29,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "swatiabc"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/swatiabc/design_patterns.git",
+    "accountId": "971aa737-7af7-42df-807a-7ddd3b42f7c4"
+  }
+}]]></component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -105,6 +86,15 @@
       <option name="presentableId" value="Default" />
       <updated>1727471616830</updated>
     </task>
+    <task id="LOCAL-00001" summary="Creational pattern">
+      <option name="closed" value="true" />
+      <created>1729287195621</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1729287195621</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -117,6 +107,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Creational pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creational pattern" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
