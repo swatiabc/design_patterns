@@ -4,13 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4375e177-1f8e-4356-8dd3-e8db47d056ec" name="Changes" comment="Creational pattern">
-      <change afterPath="$PROJECT_DIR$/src/structural/bridge/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/structural/bridge/controller/AdvanceController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/structural/bridge/controller/BaseController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/structural/bridge/remote/MobileRemote.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/structural/bridge/remote/Remote.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/structural/bridge/remote/TvRemote.java" afterDir="false" />
+    <list default="true" id="4375e177-1f8e-4356-8dd3-e8db47d056ec" name="Changes" comment="structural pattern">
+      <change afterPath="$PROJECT_DIR$/src/structural/composite/BaseShape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structural/composite/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structural/composite/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structural/composite/CompositeShape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structural/composite/Dot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structural/composite/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structural/composite/Square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/threads_demo/extend_thread/Aclass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/threads_demo/extend_thread/Bclass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/threads_demo/extend_thread/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/threads_demo/implement_runnable/AClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/threads_demo/implement_runnable/BClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/threads_demo/implement_runnable/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -29,24 +37,24 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "swatiabc"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;swatiabc&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/swatiabc/design_patterns.git",
-    "accountId": "971aa737-7af7-42df-807a-7ddd3b42f7c4"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/swatiabc/design_patterns.git&quot;,
+    &quot;accountId&quot;: &quot;971aa737-7af7-42df-807a-7ddd3b42f7c4&quot;
   }
-}]]></component>
+}</component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2mfdYf5GRhd0IGi4BT93C1kaaeP" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -55,6 +63,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Client.executor": "Run",
     "Downloaded.Files.Path.Enabled": "false",
     "Repository.Attach.Annotations": "false",
     "Repository.Attach.JavaDocs": "false",
@@ -94,7 +103,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729287195621</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="structural pattern">
+      <option name="closed" value="true" />
+      <created>1729292869423</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1729292869423</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -110,7 +127,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Creational pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creational pattern" />
+    <MESSAGE value="structural pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="structural pattern" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
