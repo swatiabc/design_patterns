@@ -5,20 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4375e177-1f8e-4356-8dd3-e8db47d056ec" name="Changes" comment="structural pattern">
-      <change afterPath="$PROJECT_DIR$/src/structural/composite/BaseShape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/structural/composite/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/structural/composite/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/structural/composite/CompositeShape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/structural/composite/Dot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/structural/composite/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/structural/composite/Square.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/threads_demo/extend_thread/Aclass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/threads_demo/extend_thread/Bclass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/threads_demo/extend_thread/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/threads_demo/implement_runnable/AClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/threads_demo/implement_runnable/BClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/threads_demo/implement_runnable/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lld/kafka/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lld/kafka/dto/Consumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lld/kafka/dto/Producer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lld/kafka/dto/Topic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lld/kafka/notes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lld/kafka/repo/ConsumerRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lld/kafka/repo/ProducerRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lld/kafka/repo/TopicRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lld/kafka/service/ConsumerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lld/kafka/service/ProducerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lld/kafka/service/TopicService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -85,6 +82,9 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/factory/creator" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/threads_demo" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -127,6 +127,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Creational pattern" />
+    <MESSAGE value="threads" />
     <MESSAGE value="structural pattern" />
     <option name="LAST_COMMIT_MESSAGE" value="structural pattern" />
   </component>
