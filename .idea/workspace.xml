@@ -4,19 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4375e177-1f8e-4356-8dd3-e8db47d056ec" name="Changes" comment="structural pattern">
-      <change afterPath="$PROJECT_DIR$/src/lld/kafka/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lld/kafka/dto/Consumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lld/kafka/dto/Producer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lld/kafka/dto/Topic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lld/kafka/notes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lld/kafka/repo/ConsumerRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lld/kafka/repo/ProducerRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lld/kafka/repo/TopicRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lld/kafka/service/ConsumerService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lld/kafka/service/ProducerService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lld/kafka/service/TopicService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="4375e177-1f8e-4356-8dd3-e8db47d056ec" name="Changes" comment="kafka lld">
+      <change afterPath="$PROJECT_DIR$/src/lld/key_word/Client.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,7 +100,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729292869423</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="kafka lld">
+      <option name="closed" value="true" />
+      <created>1729807314949</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1729807314950</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -129,7 +126,8 @@
     <MESSAGE value="Creational pattern" />
     <MESSAGE value="threads" />
     <MESSAGE value="structural pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="structural pattern" />
+    <MESSAGE value="kafka lld" />
+    <option name="LAST_COMMIT_MESSAGE" value="kafka lld" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
