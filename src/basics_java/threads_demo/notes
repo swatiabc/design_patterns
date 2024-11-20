@@ -1,0 +1,16 @@
+thread states
+    new
+    runnable , start()
+    running, run()
+    waiting, sleep(), wait().
+        after notify moves back to runnable
+    dead, stop from runnable or running
+
+
+thread scheduler: decides which thread to pick
+
+
+threads and mutation
+    use synchronized
+    use thread1.join
+        allows main thread to wait for the threads to join

@@ -1,4 +1,4 @@
-package threads_demo.extend_thread;
+package basics_java.threads_demo.extend_thread;
 
 public class Client {
     public static void main(String  args[]) {

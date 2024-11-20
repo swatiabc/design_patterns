@@ -1,0 +1,56 @@
+2 types of memory
+1. stack
+2. heap
+
+both are created by JVM ans stored in RAM
+
+
+Stack memory
+1. all temp variable and separate memory block for methods
+2. primitive data types
+3. reference of heap objects
+4. each thread has its own stack memory
+5. variables within a scope is visible, and gets deleted if out of scope in lifo
+6. STACKOVERFLOW ERROR
+
+
+in lifo manner, all the references are removed, not the object in heap
+garbage collector deletes unreferenced objects from heap
+
+
+strong reference:
+Person obj = new Person()
+GC will not delete this
+
+Weak reference:
+WeakReference<Person> person  = new WeakReference<Person>(new Person())
+GC will delete
+
+Soft reference:
+GC will only delete of very urgent
+
+
+How to change reference:
+Person obj = new Person()
+1. obj = null
+2. obj = new Person()
+
+
+Heap memory and metaspace
+1. young generation
+    1. eden
+    2. s0
+    3. s1
+2. Old generation
+
+ new object goes inside eden
+ 1. GC starts: mark and sweep:  (minor gc)
+    mark unreferenced or weak objects
+    sweep to s0, increase age
+ 2. GC invoked again
+    mark in eden and s0
+    sweep s0 to s1, increase age
+
+ if threshold reached
+
+

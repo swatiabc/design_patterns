@@ -1,0 +1,17 @@
+String is not mutable.
+String constant pool
+
+
+
+StringBuffer and StringBuilder: help to make string mutable
+
+StringBuffer
+    gives default 16 size if empty
+    if any data than size of data + 16
+    thread safe
+
+StringBuilder
+    almost same as above, but not thread safe
+
+
+

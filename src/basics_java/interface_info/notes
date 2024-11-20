@@ -1,0 +1,47 @@
+all methods in interface are public abstract
+all variables are final and static
+
+types of interface
+1. normal
+2. functional interface
+3. marcer: empty
+
+
+
+Functional interface
+
+interface with only one public abstract method
+@FunctionalInterface
+
+can have
+default method with implementation
+static method
+Object class method: toString, Equal, hashCode,
+don't have to provide implementation
+
+ways to execute
+using implements functional interface
+using anonymous class
+using lambda expression
+
+
+Lambda expression (java 8)
+
+way of implementing the functional interface
+
+
+Types of functional interface: java.util.function
+1. consumer: single parameter, no return
+2. supplier: no parameter, returns result
+3. function: 1 parameter, returns result
+4. predicate: 1 parameter, returns boolean
+5. BinaryOperator: 2 parameters, 1 return
+
+they use generics
+
+
+Extending interface:
+1. FI extending interface: overall only 1 public abstract method should be present
+2. Interface extending FI: no issue
+3. FI extending FI: only one method, only overriding
+

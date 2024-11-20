@@ -1,0 +1,32 @@
+Singleton class
+
+creation
+
+1. eager: all the static things are pre loaded
+2. lazy: not thread safe
+3. synchronization: us synchronized key word, slow
+4. double check lock: synchronized block
+                        memory issue
+                            each cpu has cores
+                            each cores has cache (l1)
+                            memory
+                            sync-up between cache has not happened
+                            two object can be created
+                        use volatile: any read and write happens from memory not cache
+5. bill pugh solution: nested static class is not loaded during application bootup
+6. enum basics_java.singleton: in enum all constructor are private.
+                only 1 instance is created of all enum elements
+
+
+
+Immutable classes
+1. final class className
+2. all class variables are final
+3. no setter method
+4. from getter, copy of value should be returned
+        final points to only one list, but elements can be added or removed
+
+
+Wrapper class
+1. boxing: int to Integer
+2. unboxing: Integer to int

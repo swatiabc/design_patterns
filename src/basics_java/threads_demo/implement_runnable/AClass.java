@@ -1,10 +1,10 @@
-package threads_demo.implement_runnable;
+package basics_java.threads_demo.implement_runnable;
 
-public class BClass implements Runnable{
+public class AClass implements Runnable{
     @Override
     public void run() {
         for(int i=0; i<=5;i++) {
-            System.out.println("hello");
+            System.out.println("hi");
             try {
                 Thread.sleep(10);
             } catch (InterruptedException e) {

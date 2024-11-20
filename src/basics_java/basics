@@ -1,0 +1,40 @@
+data type
+    primitive
+        Integer
+        Float
+        Characters
+        Boolean
+
+
+var
+    only for local variables
+    need to initialize
+    compile time
+    variable name
+    not class name
+    car nums[] not allowed
+
+
+ONLY INNER CLASS ARE STATIC
+
+final variables cannot be changed
+final class: cannot override
+final method: cannot override
+
+
+sealed and permit
+    allow some class to extend
+    child classes should be final
+
+
+toString
+    class name + @ + hashcode (single string of all the data)
+equals
+hashcode
+
+
+Static block
+    called only one, irrespective of how many objects are created
+    called before constructor
+        class loads once, and then static block
+        objects loads later

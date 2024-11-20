@@ -1,0 +1,49 @@
+object
+    throwable
+        error (not in our hand, JVM issues)
+           OutOfMemoryError
+           StackOverFlow
+        exception
+            unchecked/runtime
+                    class cast exception
+                    arithmetic exception
+                    index out of bounds
+                    null pointer
+                    illegal argument
+            checked/compile time
+                    class not found
+
+
+Throws:
+throws exception, but should be handled by caller
+void method() -> throws exception
+
+try {}
+catch (Exception name) {}
+
+
+try
+catch: can only catch which is thrown by try block
+finally: will always executed, even if we do return from try or catch
+        if jvm issue, than will not get executed
+        does not catch exception
+throw: like raise in python
+throws
+
+
+Custom exception class
+extend Exception, RuntimeException or any specific exception
+use constructor
+
+
+
+
+
+
+
+
+
+
+
+
+

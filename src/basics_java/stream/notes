@@ -1,0 +1,65 @@
+Stream
+
+pipeline through which data elements passes
+
+1. create collection
+2. create basics_java.stream
+3. intermediate operations: multiple: filter sort map
+    transform basics_java.stream
+    lazy operations: gets executed only when terminal operations are called
+4. terminal operations: only one
+    collect, reduce, count
+    returns new collection: original collection is untouched
+
+
+Different ways of creating a basics_java.stream
+1. Collections: salaryList.basics_java.stream()
+2. Array: Arrays.basics_java.stream(streamArray)
+3. Static method: Stream.off(a,b,c)
+4. Stream.Builder<Integer> basics_java.stream = Stream.builder(),
+    basics_java.stream.add()
+    Stream<Integer> st = basics_java.stream.build()
+5. basics_java.stream iterate Stream.iterate(seed, increment, limit)
+
+
+Intermediate operations
+1. filter:  predicate functional interface
+2. map: Function FI
+3. flatMap: Function FI
+4. distinct
+5. sorted
+6. peek: consumer FI
+7. limit
+8. skip
+9. mapToInt: Function FI
+10. mapToLong: Function FI
+11. mapToDouble: Function FI
+
+
+Terminal operations
+1. forEach: consumer FI
+2. toArray
+3. reduce BinaryOperator FI: associative aggregation function, like sum
+4. collect: Collector FI. eg basics_java.stream to list
+5. min/max: based on comparator provided
+6. count
+7. anyMatch: predicate FI
+8. allMatch: predicate FI
+9. noneMatch: predicate FI
+10. findFirst
+11. findAny
+
+
+after terminal operations cannot use the basics_java.stream again
+
+Parallel basics_java.stream
+1. concurrently works on basics_java.stream, unlike Stream which works sequentially
+2. divides task into subtasks, and joins the result: Fork-join pool technique
+
+
+sequentially all elements are worked: except for some like sort
+
+code:
+1. salary greater than x
+2. create basics_java.stream
+

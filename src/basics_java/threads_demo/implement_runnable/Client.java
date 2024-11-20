@@ -1,4 +1,4 @@
-package threads_demo.implement_runnable;
+package basics_java.threads_demo.implement_runnable;
 
 
 class Counter {

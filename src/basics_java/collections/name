@@ -1,0 +1,18 @@
+collection API
+Collection interfaces
+Collections classes
+
+Comparator vs Comparable
+    comparable is interface
+    comparator is FunctionalInterface
+
+
+Collection interface
+    List interface
+        ArrayList
+        LinkedList
+    Queue interface
+        Dequeue
+    Set interface
+        HashSet
+        Linked hashset
