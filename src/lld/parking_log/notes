@@ -1,0 +1,52 @@
+entity
+
+
+1. parking
+    floor
+2. floor
+    parking slot
+    parking
+3. parking_slot
+    floor
+    vehicle_type
+    empty
+    vehicle
+4. vehicle
+    parking_slot
+    floor
+    vehicle_type
+    reg_no
+    colour
+5. ticket
+    parking lot
+    floor
+    parking_slot
+    vehicle
+    active
+
+6. VehicleType enum
+    car
+    bike
+    truck
+
+
+parking lot
+1. create parking lot
+2. add floor
+3. add parking slot in any floor
+4. park a vehicle:
+    find available slot
+    return ticket
+5. unpark given ticket id
+6. Displays the number of free slots per floor for a specific vehicle type.
+7. Displays all the free slots per floor for a specific vehicle type.
+8. Displays all the occupied slots per floor for a specific vehicle type.
+
+
+
+create_parking_lot <parking_lot_id> <no_of_floors> <no_of_slots_per_floor>
+park_vehicle <vehicle_type> <reg_no> <color>
+unpark_vehicle <ticket_id>
+display <display_type> <vehicle_type>
+    Possible values of display_type: free_count, free_slots, occupied_slots
+exit
