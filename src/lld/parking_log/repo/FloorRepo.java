@@ -16,7 +16,7 @@ public class FloorRepo {
         return floorMap;
     }
 
-    public  void addFloor(Integer ID, Integer parking) {
+    public void addFloor(Integer ID, Integer parking) {
         Floor floor = new Floor(ID, parking);
         floorMap.put(ID, floor);
     }

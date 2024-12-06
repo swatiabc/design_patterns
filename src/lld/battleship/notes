@@ -1,0 +1,42 @@
+entity
+
+battleship
+    n
+    coordinates
+
+coordinates
+    x
+    y
+    player
+    ship
+    battleship
+    attacked
+
+players
+    name
+    coordinates
+    ship
+
+ship
+    name
+    x
+    y
+    player
+    size
+    exploded
+
+
+initGame
+    size n
+    assignment to players
+
+startGame
+    choose player: queue
+    factory pattern for random: create a set of eligible coordinates, and remove it once it is fired from the set
+    fireMissile
+
+viewBattleField
+
+addShip: x, y, size, name
+
+
